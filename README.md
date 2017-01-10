@@ -1,13 +1,15 @@
 # TestOnMarmoset
 Upload your programs to marmoset easily
 ## Instructions
-First you need to be able to ssh without a password using an RSA key pair:
+First you need to be able to ssh without a password using an RSA key pair.
+
+Run this and press enter three times:
 
 ```bash
 $ ssh-keygen -t rsa -b 2048
 ```
 
-Press enter three times
+Now run this to copy your credentials over:
 
 ```bash
 $ ssh-copy-id username@linux.student.cs.uwaterloo.ca
